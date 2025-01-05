@@ -1,0 +1,42 @@
+{
+  "name": "storekwil-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "@tinymce/tinymce-react": "^5.1.1",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "next": "14.2.5",
+    "nextjs-progressbar": "^0.0.16",
+    "nextjs-toploader": "^3.7.15",
+    "node-appwrite": "^13.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-qr-code": "^2.0.15",
+    "react-simple-image-slider": "^2.4.1",
+    "react-toastify": "^10.0.6",
+    "resend": "^4.0.1",
+    "stripe": "^17.2.1",
+    "use-debounce": "^10.0.4",
+    "use-resize-observer": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.9",
+    "@types/react": "18.3.12",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

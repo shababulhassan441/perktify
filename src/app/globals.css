@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* storekwiltext: "#AE6AF5",
+"nav-inactive": "#747475",
+"nav-bgactive": "#373737",
+surface: "#FBF9F7",
+primary: "#BD25FF",
+secondary: "#2C45F4",
+light: "#fff",
+accent: "#FF9290", */
+
+.custom-gradient{
+  background: linear-gradient(to bottom, #ff9290d3, #ad6af5dc);
+  /* background: linear-gradient(to bottom, #FF9290, #AE6AF5); */
+  
+}
+.custom-gradient2{
+  background: linear-gradient(to right, #FF9290, #FEAE85);
+ 
+}
+
+.rsis-container > * {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.spinner-border {
+  border-radius: 50%;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #343368;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 1s linear infinite;
+}
